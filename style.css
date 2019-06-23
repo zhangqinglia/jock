@@ -166,7 +166,7 @@ body select,option,p,ul{
     text-align: center;
     line-height: 47px;
 }
-.first li a:hover{
+.first li a:active{
     color:green;
 }
 .a1{
