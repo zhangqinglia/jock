@@ -70,14 +70,15 @@ body p,ul{
 #text{
     text-indent:2em;
     width:540px;
-    height:46px;
+    height:50px;
      border:1px solid black;
 }
 #fangda{
-    height:47px;
+    width:60px;
+    height:50px;
     border:1px solid black;
     position: relative;
-    bottom:-19px;
+    bottom:-21px;
     right:4px;
 }
 /* 导航 */
@@ -202,137 +203,58 @@ body p,ul{
     background-image:url(所需小图/img4.png); 
     background-repeat: no-repeat;
     background-position:center center;
-     position: relative;
 }
 .p5{
     background-image:url(所需小图/img5.png); 
     background-repeat: no-repeat;
     background-position:center center;
-     position: relative;
 }
 .p6{
     background-image:url(所需小图/img6.png); 
     background-repeat: no-repeat;
     background-position:center center;
-     position: relative;
 }
 .p7{
     background-image:url(所需小图/img7.png); 
     background-repeat: no-repeat;
     background-position:center center;
-     position: relative;
 }
 .p8{
     background-image:url(所需小图/img8.png); 
     background-repeat: no-repeat;
     background-position:center center;
-     position: relative;
 }
 .hidden{
     display:none;
-    background-color: rgba(0,0,0,0.7);
-    width:270px;
+    background-color: rgba(76,76,76,0.5);
+    width:275px;
     height:290px;
     text-align: center;
     color:white;
-    position: absolute;
-    font-size:19px;
-}
-.hidden>p{
-    font-size:19px;
-    margin-top:80px;
 }
 .hi{
     padding:40px;
 }
 .display{
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(76,76,76,0.5);
     width:271px;
     height:52px;
     text-align: center;
     color:white;
-    position:absolute;
-    bottom:0px;
+    position:relative;
+    top:240px;
+    float:left;
 }
-.p1:hover .display{
-    display: none;
-    position: absolute;
-    bottom: 0px;
-    opacity: 0.7;
-    background-color: #000;
+.display:hover{
+    opacity: 0;
 }
-.p1:hover .hidden{
+.display:hover .hidden{
     display:block;
-}
-.p2:hover .display{
-    display: none;
-    position: absolute;
-    bottom: 0px;
-    opacity: 0.7;
-    background-color: #000;
-}
-.p2:hover .hidden{
-    display:block;
-}
-.p3:hover .display{
-    display: none;
-    position: absolute;
-    bottom: 0px;
-    opacity: 0.7;
-    background-color: #000;
-}
-.p3:hover .hidden{
-    display:block;
-}
-.p4:hover .display{
-    display: none;
-    position: absolute;
-    bottom: 0px;
-    opacity: 0.7;
-    background-color: #000;
-}
-.p4:hover .hidden{
-    display:block;
-}
-.p5:hover .display{
-    display: none;
-    position: absolute;
-    bottom: 0px;
-    opacity: 0.7;
-    background-color: #000;
-}
-.p5:hover .hidden{
-    display:block;
-}
-.p6:hover .display{
-    display: none;
-    position: absolute;
-    bottom: 0px;
-    opacity: 0.7;
-    background-color: #000;
-}
-.p6:hover .hidden{
-    display:block;
-}
-.p7:hover .display{
-    display: none;
-    position: absolute;
-    bottom: 0px;
-    opacity: 0.7;
-    background-color: #000;
-}
-.p7:hover .hidden{
-    display:block;
-}
-.p8:hover .display{
-    display: none;
-    position: absolute;
-    bottom: 0px;
-    opacity: 0.7;
-    background-color: #000;
-}
-.p8:hover .hidden{
-    display:block;
+    background-color: rgba(76,76,76,0.5);
+    width:275px;
+    height:290px;
+    text-align: center;
+    color:white;
 }
 .white
 {
@@ -377,7 +299,7 @@ body p,ul{
 .fix{
     position: fixed;
     right: 0px;
-    top:199px;
+    top:191px;
 }
 .fix li{
     width:80px;
