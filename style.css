@@ -22,8 +22,8 @@ body{
     width:1920px;
     margin:0 auto;
 }
-body p,ul{
-    font-size:16px;
+body select,option,p,ul{
+    font-size:14.78px;
 }
 .header{
     width:100%;
@@ -32,7 +32,7 @@ body p,ul{
     background-color:#fff;
 }
 .header span{
-    font-size: 14px;
+    font-size: 12.93px;
     margin-left: 885px;
 }
 .header img{
@@ -49,9 +49,13 @@ body p,ul{
     margin:10px 12px 0 0; 
 }
 .header a{
-    color: #000;
+    font-size:14.78px;
+}
+.ziti{
+    color:#0d0408;
     font:bold;
-    font-size:14px;
+    font-weight:bold;
+    font-size:14.78px;
     margin: 0px 14px 0px 0px;
 }
 .search>span>img{
@@ -74,7 +78,7 @@ body p,ul{
      border:1px solid black;
 }
 #fangda{
-    height:47px;
+    height:46px;
     border:1px solid black;
     position: relative;
     bottom:-19px;
@@ -94,7 +98,7 @@ body p,ul{
     margin-top:10px;
 }
 .xialalist select{
-    text-decoration:bold;
+    font-weight:bold;
 }
 .nav li{
     width:80px;
@@ -126,7 +130,11 @@ body p,ul{
     width:1190px;
     margin:0 auto;
 }
-.main-wrap a{
+#shouye{
+    font-size:18px;
+    color:#000;
+}
+#yuhsi{
     font-size:14px;
 }
 .crumb{
@@ -140,7 +148,6 @@ body p,ul{
     float:right;
 }
 .crumb a{
-    font-size: 18px;
     color:#5c5a5a;
     position:relative;
     left:25px;
@@ -150,6 +157,7 @@ body p,ul{
     height:45px;
     border:1px solid #ccc;
     color:#737373;
+    position: relative;
 }
 .first li{
      float: left;
@@ -162,7 +170,8 @@ body p,ul{
     background-color:#e5e5e5;
 }
 .more{
-    float:right;
+   position:absolute;
+   right:25px;
 }
 .shop-main{
     height:653px;
@@ -236,14 +245,12 @@ body p,ul{
     text-align: center;
     color:white;
     position: absolute;
-    font-size:19px;
+    font-size:22.14px;
 }
 .hidden>p{
-    font-size:19px;
-    margin-top:80px;
-}
-.hi{
-    padding:40px;
+    font-size:22.14px;
+    margin-top:118px;
+    margin-bottom:25px;
 }
 .display{
     background-color: rgba(0,0,0,0.7);
