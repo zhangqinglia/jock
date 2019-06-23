@@ -166,8 +166,12 @@ body select,option,p,ul{
     text-align: center;
     line-height: 47px;
 }
+.first li a:hover{
+    color:green;
+}
 .a1{
     background-color:#e5e5e5;
+    color:#000;
 }
 .more{
    position:absolute;
